@@ -1,5 +1,4 @@
 
-
 .navbar {
     height: 35px;
     background-color: #0088cc;
@@ -7,25 +6,138 @@
 
 .navMenu {
     padding-top: 20px;
-    font-size: 10px;
+    font-size: 11px;
+     color:#bce1f4 ;
+    margin-left: 120px;
 }
 .header1 {
     background-color: #0088cc;
     min-height: 106px;
     border-top: 1px solid #0e95d9;
+    width: 100%;
 
 }
-.div {
-    border: 1px black solid;
-    min-height: 106px;
-}
 .dropdown-item {
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
     font-size: 10px;
+    height: 85%;
 }
 
 .dropdown-menu.show{
     min-width: 25px;
     height: 60px;
     margin: -20px 14px;
+}
+.nav-link {
+    padding-top: 0px;
+    margin-left: 5px;
+    padding-bottom: 0px;
+    color: #bce1f4;
+    padding-left: 10px;
+
+}
+.reload {
+    width: 8px;
+    height: 9px;
+    margin-bottom: 1px;
+}
+
+.zero {
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.first{
+    margin-left: 270px;
+}
+.logo {
+    padding-top: 33px;
+}
+
+/*FORM*/
+
+#search {
+    /* устанавливаем ширину формы,
+    ** равную ширине поля ввода (183 + 37 + 15)	*/
+    width: 235px;
+    height: 29px;
+}
+
+/* делаем инпуты плавающими, чтобы убрать лишние отступы,
+** и отключаем бордюры */
+#search input {
+    float: left;
+    border: none;
+}
+
+/* стили для поля ввода */
+#search .input {
+    width: 183px;
+    height: 28px;
+    /* внутренний отступ справа (37px) делаем больше левого,
+    ** т.к. там будет размещена кнопка отправки	*/
+    padding: 0 37px 0px 15px;
+    color: #555;
+    outline: none;
+}
+
+
+/* меняем оформление поля ввода при фокусе */
+#search .input:focus {
+    background-color: #E8E8E8;
+    background-position: 0 -29px;
+    color: #333;
+}
+
+/* оформляем кнопку отправки */
+#search .submit {
+    width: 37px;
+    height: 29px;
+    cursor: pointer;
+
+    /* смещаем кнопку влево на собственную ширину,
+    ** чтобы она оказалась над полем ввода */
+    margin-left: -37px;
+
+}
+input {
+    background-color: white;
+}
+
+ /* HEADER 2 */
+
+.header2{
+    background: #f4f4f4;
+    height: 80px;
+}
+.header2-2 {
+    background: #f4f4f4;
+    height: 80px;
+    border-right:  1px white solid;
+    border-left: 1px white solid;
+}
+.form {
+    padding-top: 35px;
+
+}
+.div1 {
+    padding-top: 28px;
+    width: 57px;
+}
+.div2 {
+    padding-top: 32px;
+    line-height: 0px;
+}
+.div3 {
+    padding-top: 22px;
+    width: 40px;
+    padding-left: 50px;
+
+}
+.div4 {
+    padding-top: 32px;
+    line-height: 0px;
+    padding-left: 10px;
+}
+.dropdown1 {
+    padding-left: 0px;
 }

@@ -16,18 +16,16 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    <!--Flags-->
+    <link rel="stylesheet" href="img/flag/flags.css"/>
     <title>Porto</title>
 </head>
 
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light shadow-none">
-    <div class="container navMenu">
+    <div class="navMenu">
         <div class="row">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>                                                                               <!-- DROPDOWN MENU -->
             <div class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     USD
@@ -38,91 +36,160 @@
                     <a class="dropdown-item" href="#">BYN</a>
                 </div>
             </div>
+            |
             <div class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="flag-US"></i>
                     ENGLISH
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">RUSSIAN</a>
-                    <a class="dropdown-item" href="#">GERMAN</a>
-                    <a class="dropdown-item" href="#">ITALIAN</a>
+                    <a class="dropdown-item" href="#"><i class="flag-RU"></i>RUSSIAN</a>
+                    <a class="dropdown-item" href="#"><i class="flag-GE"></i>GERMAN</a>
+                    <a class="dropdown-item" href="#"><i class="flag-IT"></i>ITALIAN</a>
                 </div>
             </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#" id="Compare"  aria-haspopup="true" aria-expanded="false">
+            |
+                <a class="nav-link zero" href="#" id="Compare"  aria-haspopup="true" aria-expanded="false">
+                    <img class="reload" src="img/reload.png" width="50"
+                         height="50"  aria-haspopup="true" aria-expanded="false">
                     COMPARE(2)
                 </a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-link" href="#" id="DEFAULT">
+
+            <a class="nav-link first" href="#" id="DEFAULT">
                     DEFAULT! WELCOME MSG
                 </a>
-            </div>
-
-            <div class="nav-item">
+                |
                 <a class="nav-link" href="#" id="ACCOUNT">
                     MY ACCOUNT
                 </a>
-            </div>
-
-            <div class="nav-item">
-                <span class="nav-link" href="#" id="DAYLI DEAL"><a>
-                    DAILY DEAL</a>
-                </span>
-            </div>
-
-            <div class="nav-item">
+                |
+                <a class="nav-link" href="#" id="DAYLI DEAL">
+                    DAILY DEAL
+                </a>
+                |
                 <a class="nav-link" href="#" id="WISHLIST">
                     MY WISHLIST
                 </a>
-            </div>
-
-            <div class="nav-item">
+                |
                 <a class="nav-link" href="#" id="BLOG">
                 BLOG
-            </a>
-            </div>
-            <div class="nav-item">
+                </a>
+                |
                 <a class="nav-link" href="#" id="CONTACT">
                     CONTACT
                 </a>
-            </div>
-            <div class="nav-item">
+                |
                 <a class="nav-link" href="#" id="LOGIN">
                     LOG IN
                 </a>
-            </div>
-            </div>
 
 
-
-            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
     </div>
 </nav>
+
+
 <div class="container-fluid header1">
-    <div class="container">
+    <div class="container" style="width: 100%; margin-right: 14px;">
         <div class="row">
              <div class="col-md-3">
-                 <div class="div">
-                   LOGO
+                 <div class="logo">
+                     <img src="img/LOGO.jpg" width="" height="" alt="" />
                  </div>
              </div>
               <div class="col-md-5">
-                  <div class="div">
-                      <!-- FORM -->
+                  <div class="form">
+
+                      <form action="" method="post" id="search">
+                          <input type="text" name="" value="поиск" class="input" />
+                          <input type="submit" name="" value="" class="submit" />
+                      </form>
+
                   </div>
               </div>
-               <div class="col-md-4">
-                   <div class="div">
-                   phone/bin
-                   </div>
-                </div>
+              <div class="col-md-3">
+                  <div class="shopCart">     phone/bin
+                  </div>
+              </div>
+              <div class="col-md-1">
+                  <div class="nav-item dropdown1">
+                      <a class="nav-link dropdown-toggle" href="#" id="shoppingCart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-top: 33px">
+                          <img src="img/shopping-bag.png" width="35px" height="38px"/>
+                      </a>
+                  </div>
+              </div>
         </div>
     </div>
 </div>
 
- <!--Optional JavaScript -->
+
+
+
+<div class="container-fluid header2">
+    <div class="container" style="width: 100%; margin-right: 14px;">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="header2-1">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="div1">
+                            <p><a href="#"><img src="img/shipping.jpg"/></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="div2">
+                            <a href="#"><p style="font-size: 14px; color: #4b4b4b;">FREE SHIPPING & RETURN</p></a>
+                            <a href="#"><p style="font-size: 12px; color: #839199;">Free shipping on all orders over $99.</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="header2-2">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="div3">
+                            <p><a href="#"><img src="img/moneyback.jpg"/></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="div4">
+                            <a href="#"><p style="font-size: 14px; color: #4b4b4b;">MONEY BACK GUARANTE</p></a>
+                            <a href="#"><p style="font-size: 12px; color: #839199;">100% money back guarantee</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="header2-1">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="div3">
+                            <p><a href="#"><img src="img/support.jpg"/></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="div4">
+                            <a href="#"><p style="font-size: 14px; color: #4b4b4b;">ONLINE SUPPORT 24/7</p></a>
+                            <a href="#"><p style="font-size: 12px; color: #839199;">Lorem ipsum dolor set amet</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
 <script src="https://kit.fontawesome.com/6f5108e80a.js" crossorigin="anonymous"></script>
@@ -131,6 +198,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="img/flag/flags.js"></script>
 <script src="js/owl.carousel.js"></script>
 
 
