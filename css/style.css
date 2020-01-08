@@ -10,6 +10,11 @@
      color:#bce1f4 ;
     margin-left: 120px;
 }
+.header {
+    padding: 0px;
+    margin: 0px;
+}
+
 .header1 {
     background-color: #0088cc;
     min-height: 106px;
